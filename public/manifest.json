@@ -1,0 +1,21 @@
+{
+  "name": "DataX Technologies",
+  "short_name": "DataX",
+  "description": "Software, AI, cloud, cybersecurity, data, design, SEO, and digital marketing solutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0b14",
+  "theme_color": "#0b0b14",
+  "icons": [
+    {
+      "src": "/datax-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/datax-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

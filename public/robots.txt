@@ -1,0 +1,49 @@
+# robots.txt for DataX Technologies (https://www.datax.pk)
+
+User-agent: *
+Allow: /
+Allow: /_next/static/
+Allow: /assets/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.webp$
+Allow: /*.svg$
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /.next/
+Disallow: /node_modules/
+Disallow: /scripts/
+
+# AI search and answer engines
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+Sitemap: https://www.datax.pk/sitemap.xml
